@@ -1,0 +1,26 @@
+<flat-profile>
+    <Enable_PC_Port_VLAN_Tagging group="System/VLAN_Settings">Yes</Enable_PC_Port_VLAN_Tagging>
+    <PC_Port_VLAN_ID group="System/VLAN_Settings">1</PC_Port_VLAN_ID>
+<BMP_Picture_Download_URL group="Phone/General">tftp://10.10.8.2/Desktops/spa/twrbw2.bmp</BMP_Picture_Download_URL>
+<Select_Logo group="Phone/General">BMP Picture</Select_Logo>
+<Select_Background_Picture group="Phone/General">BMP Picture</Select_Background_Picture>
+<Proxy_1_ group="Ext_1/Proxy_and_Registration">10.10.8.2</Proxy_1_>
+<Time_Zone group="Regional/Miscellaneous">GMT-05:00</Time_Zone>
+<Daylight_Saving_Time_Rule group="Regional/Miscellaneous">start=3/8/7/2;end=11/1/7/2;save=1</Daylight_Saving_Time_Rule>
+<Daylight_Saving_Time_Enable group="Regional/Miscellaneous">Yes</Daylight_Saving_Time_Enable>
+<Station_Name group="Phone/General">_PHONE-LABEL_</Station_Name>
+<Extension_1_ group="Phone/Line_Key_1">1</Extension_1_>
+<Short_Name_1_ group="Phone/Line_Key_1">x 3716</Short_Name_1_>
+<Share_Call_Appearance_1_ group="Phone/Line_Key_1">private</Share_Call_Appearance_1_>
+<Display_Name_1_ group="Ext_1/Subscriber_Information">Scott Hollinger</Display_Name_1_>
+<User_ID_1_ group="Ext_1/Subscriber_Information">3716</User_ID_1_>
+<Password_1_ group="Ext_1/Subscriber_Information">TWR-C15c0-IHQ-Asterisk</Password_1_>
+<Auth_ID_1_ group="Ext_1/Subscriber_Information">3767</Auth_ID_1_>
+<Extension_4_ group="Phone/Line_Key_4">Disabled</Extension_4_>
+<Short_Name_4_ group="Phone/Line_Key_4">Directory</Short_Name_4_>
+<Share_Call_Appearance_4_ group="Phone/Line_Key_4">private</Share_Call_Appearance_4_>
+<Extended_Function_4_ group="Phone/Line_Key_4">fnc=sd;ext=1001@$PROXY;vid=1;nme=Directory</Extended_Function_4_>
+<Extension_2_ group="Phone/Line_Key_1">Disabled</Extension_2_>
+<Extension_3_ group="Phone/Line_Key_1">Disabled</Extension_3_>
+<Extension_4_ group="Phone/Line_Key_1">Disabled</Extension_4_>
+</flat-profile>

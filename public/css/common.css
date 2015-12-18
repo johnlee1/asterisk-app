@@ -1,0 +1,261 @@
+@CHARSET "UTF-8";
+<head>
+<style>
+       @import url(//fonts.googleapis.com/css?family=Lato:700); 
+       a:active {  text-decoration: none; color: #1947A3;}    /* selected link */
+       a:link {text-decoration: none; color: #1947A3;}      /* unvisited link */
+       a:visited {text-decoration: none; color: #1947A3;}   /* visited link */
+       a:hover {text-decoration: underline; color: #FF641F;}     /* mouse over link */
+
+	font.appTitle {
+    	font-size: 1.5em;
+    	font-style: bold;
+    	color: #1B2E5A; // Dk Blue
+	}
+
+	font.ltBlue {
+		color: #27B1F4;	// Light Blue
+	}	
+	
+	font.formTitle {
+    	font-size: 1.3em;
+    	color: #27B1F4; // Light Blue
+	}
+
+	font.detailHeading {
+    	font-size: 1.3em;
+    	color: #1B2E5A; // Dk Blue
+	}
+		
+	font.messages {
+		color: #FF641F;
+	}
+	
+	input.shortButton {
+    	font-size: 12px;
+	}
+	
+	form.shortForm {
+	  margin-bottom: 0;
+	}
+		
+/*       
+	tr.topBorderTwrLtBlue td {
+		border-top-style: solid;
+		border-top-color: #27B1F4;
+		border-top-width: 1 px;
+	}
+
+	tr.topBorderTwrOrange td {
+		border-top-style: solid;
+		border-top-color: #FF641F;
+		border-top-width: thin;
+	}
+
+	tr.topBorderTwrDkBlue td {
+		border-top-style: solid;
+		border-top-color: #1947A3;
+		border-top-width: 1 px;
+	}
+	
+	tr.botBorderTwrLtBlue td {
+		border-bottom-style: dashed;
+		border-bottom-color: #27B1F4;
+		border-bottom-width: .3 px;
+		padding-bottom: 20 px;
+	}
+
+	tr.botBorderTwrOrange td {
+		border-bottom-style: dotted;
+		border-bottom-color: #FF641F;
+		border-bottom-width: thin;
+		padding-bottom: 40 px;
+		color: #FF641F;
+	}
+*/
+	input.bigButton {
+  		font-size: 1.5em;
+  		font-color: #27B1F4;
+	}
+
+	tr.spacingAbove td {
+		padding-top: 1em;
+	}
+		
+	tr.spacingBelow td {
+		padding-bottom: 1em;
+	}
+	
+	td.largeSpacingLeft {
+		padding-left: 2.5em;
+	}	
+
+	td.hugeSpacingLeft {
+		padding-left: 3.5em;
+	}	
+	
+	td.spacingLeft {
+		padding-left: 1em;
+	}	
+	
+	td.spacingRight {
+		padding-right: 1em;
+	}
+	
+	td.astSpacingRight {
+		padding-right: 3em;
+	}
+
+	td.leftalign {
+	    text-align: left;
+	}
+		
+	td.rightalign {
+	    text-align: right;
+	}
+
+	td.centeralign {
+		text-align: center;
+	}
+	
+	th.leftalign {
+	    text-align: left;
+	}
+
+	th.rightalign {
+		text-align: right;
+	}
+
+	th.centeralign {
+		text-align: center;
+	}
+	
+	tr.leftalign td th {
+		text-align: left;
+	}
+	
+	td.tableheading {
+		text-align: center;
+		background-color: #27B1F4;
+		font-size: 1.3em;
+    	padding-top: 6px;	
+    	padding-bottom: 6px;
+		border-bottom-style: solid;
+		border-bottom-color: #FFFFFF;
+		border-bottom-width: 1em;
+	}
+	
+	td.tableheading2 {
+		text-align: right;
+		font-size: 1em;
+		font-weight: bold;
+		border-right-style: solid;
+		border-right-color: #FFFFFF;
+		border-right-width: 1em;
+	}
+	
+	td.tableheading3 {
+		font-weight: bold;
+	}
+
+	td.twrOrange {
+		color: #FF641F
+	}
+	td.twrDkBlue {
+		color: #1B2E5A
+	}
+	td.twrLtBlue {
+		color: #27B1F4
+	}
+	
+	td.backTwrLtBlue {
+		background-color: #27B1F4;
+	}
+	
+	.col1 {
+		display: block;
+		width: 46%;
+		float: left;
+		clear: left;
+		text-align: right;
+		margin-left: 3.33333%;
+	}
+	
+	.col2 {
+		display: block;
+		width: 49%;
+		float: right;
+		overflow: auto;
+		clear: right;
+	}
+	
+	.twrLtBlue {
+		color: #27B1F4
+	}
+	
+	.leftColumn {
+		display: inline-block;
+		margin-left: 1%;
+		float: left;
+		width:49%;
+	}
+	
+	.rightColumn {
+		display: inline-block;
+		margin-right: 10%;
+		float: right;
+		width: 25%
+	}
+	
+	.leftColumnForImport {
+		display: inline-block;
+		margin-left: 1%;
+		float: left;
+		width:45%;
+	}
+	
+	.rightColumnForImport {
+		display: inline-block;
+		margin-right: 1%;
+		float: right;
+		width: 45%
+	}
+	
+	img.projectPhoto {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto 
+	}
+	
+</style>
+
+<style type="text/css">
+	.TFtable{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	.TFtable tr{
+		background: #b8d1f3;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	.TFtable tr:nth-child(odd){ 
+		background: #E8E8E8;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	.TFtable tr:nth-child(even){
+		background: #FFFFFF;
+/*	.TFtable tr:nth-child(even){
+		background: #CCFFFF;*/
+	}
+</style>
+
+<style type="text/css">
+	.RightAlignLabelsTable{
+	}
+	.RightAlignLabelsTable td{
+		text-align: right;
+	}	
+</style>
+
+</head>
